@@ -1,0 +1,57 @@
+*{
+margin:0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+#box{
+    width: 200px;
+    height: 300px;
+    padding: 2px;
+    margin: 50px;
+    background-color: aqua;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+}
+#box img{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    object-fit: cover;
+    /* transform: rotateX(-89deg); // use to rotate from axis
+    transform: scale(3); //use to zoom
+    background-position: center;
+    border: 5px solid crimson; */
+
+}
+#box #small{
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(transparent, black);
+    position: absolute;
+    flex-direction: row;
+    color: white;
+    display: flex;
+    bottom: -40%;
+    transition: 2s;
+}
+#box h1{
+    color: white;
+    padding: 2%;
+    position: center;
+    padding-left: 5%;
+}
+#box h2{
+    color: white;
+    padding: 2%;
+    position: center;
+    padding-left: 5%;
+}
+
+#box:hover #small{
+    bottom: 0%;
+}

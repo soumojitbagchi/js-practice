@@ -1,0 +1,48 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+#outer{
+    height: 800px;
+    width: 800px;
+    background: conic-gradient( red,blue);
+    border: none;
+    margin-bottom: 50%;
+}
+#inner{
+    height: 50%;
+    width: 50%;
+    background: linear-gradient(to right top,blue 90%,red)
+}
+#deep{
+    height: 50%;
+    width: 50%;
+    background: radial-gradient( red,blue);
+    border-radius: 50%;
+    text-align: center;
+    margin: 77%;
+    padding-top: 100%;
+    /* background-image: url(https://images.unsplash.com/photo-1755498948221-b1b80c366c2e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1032); */
+    background-image: url(https://images.unsplash.com/photo-1618325508550-951512a1e82d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+    background-size: cover;
+    background-position: bottom;
+    border: 12px dashed white;
+}
+.d{
+    height: 60px;
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+    padding-top:12px;
+    border-radius: 50px;
+    margin: 80px;
+}
+
+
+
+

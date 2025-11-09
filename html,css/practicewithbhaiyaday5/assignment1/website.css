@@ -1,0 +1,157 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div{
+color: azure;
+background-color: rgb(8, 11, 48);
+text-align: center;
+text-transform: uppercase;
+
+} */
+ .inner{
+    color: white;
+/* background-color: rgb(8, 11, 48);
+text-align: center; */
+text-transform: capitalize ;
+
+ }
+ .outer{
+    color:white;
+background-color: rgb(33, 37, 102);
+text-align: center;
+text-transform: uppercase;
+height: 120px;
+padding: 35px;
+ }
+.biggest{
+    background-color:floralwhite ;
+    max-height:inherit;
+    /* margin: 10%; */
+}
+.about{
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    height: 120px;
+    padding: 20px;
+    margin: 75px;
+}
+.aboutmeinner{
+    color: black;
+    text-transform: none;
+    padding: 24px;
+}
+.edu{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(197, 235, 245);
+    height: 120px;
+    padding: 15px;
+    margin: 75px;
+}
+.qualia{
+    text-transform: none;
+    background-color: white;
+    margin: 4px;
+    height: 30px;
+    padding: 7px;
+    text-align: center;
+
+}
+.qualib{
+    text-transform: none;
+    background-color: white;
+    margin: 4px;
+    height: 25px;
+    padding: 7px;
+    text-align: center;
+}
+.skill{
+      background-color: rgb(238, 227, 126);
+    text-align: center;
+    text-transform: uppercase;
+    height: 210px;
+    margin: 75px;
+    padding: 55px;
+    font-weight: 450;
+}
+.skillsa{
+    background-color: aliceblue;
+    text-transform: capitalize;
+    margin: 4px;
+    padding: 4px;
+    height: 25px;
+}
+.skillsb{
+    background-color: aliceblue;
+    text-transform: capitalize;
+    margin: 4px;
+    padding: 4px;
+    height: 25px;
+}.skillsc{
+    background-color: aliceblue;
+    text-transform: capitalize;
+    margin: 4px;
+    padding: 4px;
+    height: 25px;
+}
+.projects{
+      background-color: rgb(184, 149, 204);
+    text-align: center;
+    text-transform: uppercase;
+    height: 210px;
+    margin: 75px;
+    padding: 50px;
+}
+.proja{
+    background-color: aliceblue;
+    text-transform: capitalize;
+    margin: 4px;
+    padding: 4px;
+    height: 25px;
+    
+}
+.projb{
+    background-color: aliceblue;
+    text-transform: capitalize;
+    margin: 4px;
+    padding: 4px;
+    height: 25px;
+}.projc{
+    background-color: aliceblue;
+    text-transform: capitalize;
+    margin: 4px;
+    padding: 4px;
+    height: 25px;
+}
+.contact{
+      background-color: rgb(187, 255, 155);
+    text-align: center;
+    text-transform: uppercase;
+    height: 210px;
+    margin: 75px;
+    padding: 52px;
+}
+.conta{
+    background-color: aliceblue;
+    text-transform: none;
+    margin: 4px;
+    padding: 4px;
+    height: 25px;
+}
+.contb{
+    background-color: aliceblue;
+    text-transform: capitalize;
+    margin: 4px;
+    padding: 4px;
+    height: 25px;
+}.contc{
+    background-color: aliceblue;
+    text-transform: capitalize;
+    margin: 4px;
+    padding: 4px;
+    height: 25px;
+}

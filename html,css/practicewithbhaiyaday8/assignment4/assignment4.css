@@ -1,0 +1,415 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+#main{
+    height: 300%;
+    width: 100%;
+    background-color: white;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    gap: 4.5vh;
+    /* text-transform: capitalize; */
+    font-weight: 10;
+    color: #1A1D21;
+    font-size: small;
+    height: 4vh;
+    padding: 1vh;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    cursor:pointer;
+    top: 0;
+    opacity: 90% ;
+    /* animation: forwards; */
+}
+#upper{
+   width: 100%; 
+   height: 24%;
+   background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_largetall.jpg);
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   cursor: pointer;
+}
+#name{
+    font-size: 4vh;
+    color: white;
+    position: absolute;
+    left: 41%;
+    top: 10%;
+}
+#out{
+    font-size: 2vh;
+    color: white;
+    position: absolute;
+    left: 46%;
+    top: 18%;
+}
+#learn{
+    width: 7%;
+    height: 5vh;
+    position: absolute;
+    left: 44%;
+    top: 23%;
+    color: white;
+    background-color: #2160d5;
+    border-radius: 40px;
+    border-bottom: 2px #006EDB;
+    font-weight: 100;
+    cursor:pointer;
+   
+}
+#buy{
+    width: 4%;
+    height: 5vh;
+    position: absolute;
+    left: 52%;
+    top: 23%;
+    border-radius: 40px; 
+    color: #006EDB;
+    background-color: transparent;
+    border: 2px solid #006EDB;  
+    cursor:pointer; 
+}
+#buy:hover{
+    background-color: #006EDB;
+    color: white;
+}
+#gap{
+    height: 2vh;
+}
+#mid{
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_largetall.jpg);
+    width: 100%;
+    height: 24%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#air{
+    position: relative;
+    font-size: 3.5vh;
+    font-weight: 100;
+    left: 43%;
+    top: 7%;
+    
+
+}
+#airlowa{
+    position: relative;
+    left: 44%;
+    top: 8%;
+    font-size: 2vh;
+    
+}
+#airlowb{
+    position: relative;
+    left: 43%;
+    top: 9%;
+    font-size: 2vh;
+}
+#learn-{
+    width: 7%;
+    height: 5vh;
+    position: relative;
+    left: 44%;
+    top: 11%;
+    color: white;
+    background-color: #2160d5;
+    border-radius: 40px;
+    border-bottom: 1px #006EDB;
+    font-weight: 100;
+    cursor:pointer;
+   
+}
+#buy-{
+    width: 4%;
+    height: 5vh;
+    position: relative;
+    left: 45%;
+    top: 11%;
+    border-radius: 40px; 
+    color: #006EDB;
+    background-color: transparent;
+    border: 2px solid #0077ED;  
+    cursor:pointer; 
+    
+}
+#buy-:hover{
+    background-color: #006EDB;
+    color: white;
+}
+/* #fl{
+    display: flex;
+    flex-direction: column-reverse;
+} */
+#last{
+    height: 33%;
+    width: 110%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5%;
+
+}
+#last #first{
+    width: 45%;
+    height: 60%;
+    margin: 0.5%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-17/promo_iphone_17__bhofuohbsu3m_large.jpg);
+    background-position: center;
+}
+#first #iphone{
+    position: relative;
+    left: 43%;
+    top: 5%;
+    font-size: 2vh;
+}
+#first #des{
+    position: relative;
+    left: 45.5%;
+    top: 6%;
+}
+#learn-a{
+    width: fit-content;
+    height: 8%;
+    position: relative;
+    left: 43%;
+    top: 3vh;
+    color: white;
+    background-color: #2160d5;
+    border-radius: 40px;
+    border-bottom: 1px #006EDB;
+    font-weight: 100;
+    cursor:pointer;
+   
+}
+#buy-a{
+    width: 5%;
+    height: 8%;
+    position: relative;
+    left: 44%;
+    top: 3vh;
+    border-radius: 40px; 
+    color: #006EDB;
+    background-color: transparent;
+    border: 1px solid #0077ED;  
+    cursor:pointer; 
+    
+}
+#buy-a:hover{
+    background-color: #0077ED;
+    color: white;
+
+}
+#last #second{
+    width: 49.5%;
+    height: 60%;
+    margin: 0.5%;
+    background-image: url(https://www.apple.com/in/home/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#first #watch{
+    position: relative;
+    left: 43%;
+    top: 5%;
+    font-size: 2vh;
+}
+#first #des{
+    position: relative;
+    left: 45.5%;
+    top: 6%;
+}
+#first #learn-a{
+    width: fit-content;
+    height: 8%;
+    position: relative;
+    left: 44%;
+    top: 11%;
+    color: white;
+    background-color: #2160d5;
+    border-radius: 40px;
+    border-bottom: 1px #006EDB;
+    font-weight: 100;
+    cursor:pointer;
+   
+}
+#first #buy-a{
+    width: 4%;
+    height: 5vh;
+    position: relative;
+    left: 45%;
+    top: 11%;
+    border-radius: 40px; 
+    color: #006EDB;
+    background-color: transparent;
+    border: 1px solid #0077ED;  
+    cursor:pointer; 
+    
+}
+#first #buy-a:hover{
+    background-color: #0077ED;
+    color: white;
+}
+#last #second #head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+}
+#second #head #head1{
+    padding-top: 4vh;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* position: relative; */
+    color: black;
+}
+#second #des{
+    padding-left: 30%;
+    font-size: x-large;
+}
+
+#last #fifth{
+    width: 45%;
+    height: 60%;
+    margin: 0.5%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/macbook-air/promo_macbook_air__fqowrtnxewqe_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fifth #iphone{
+    position: relative;
+    left: 43%;
+    top: 5%;
+    font-size: 2vh;
+}
+#fifth #des{
+    position: relative;
+    left: 45.5%;
+    top: 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 0vh;
+    align-self: 1px;
+    height: fit-content;
+}
+#learn-a{
+    width: fit-content;
+    height: 8%;
+    position: relative;
+    left: 43%;
+    top: 3vh;
+    color: white;
+    background-color: #2160d5;
+    border-radius: 40px;
+    border-bottom: 1px #006EDB;
+    font-weight: 100;
+    cursor:pointer;
+   
+}
+#buy-a{
+    width: 5%;
+    height: 8%;
+    position: relative;
+    left: 44%;
+    top: 3vh;
+    border-radius: 40px; 
+    color: #006EDB;
+    background-color: transparent;
+    border: 1px solid #0077ED;  
+    cursor:pointer; 
+    
+}
+#buy-a:hover{
+    background-color: #0077ED;
+    color: white;
+
+}
+#last #second{
+    width: 49.5%;
+    height: 60%;
+    margin: 0.5%;
+    background-image: url(https://www.apple.com/in/home/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#first #watch{
+    position: relative;
+    left: 43%;
+    top: 5%;
+    font-size: 2vh;
+}
+#first #des{
+    position: relative;
+    left: 45.5%;
+    top: 6%;
+}
+#first #learn-a{
+    width: fit-content;
+    height: 8%;
+    position: relative;
+    left: 44%;
+    top: 11%;
+    color: white;
+    background-color: #2160d5;
+    border-radius: 40px;
+    border-bottom: 1px #006EDB;
+    font-weight: 100;
+    cursor:pointer;
+   
+}
+#first #buy-a{
+    width: 4%;
+    height: 5vh;
+    position: relative;
+    left: 45%;
+    top: 11%;
+    border-radius: 40px; 
+    color: #006EDB;
+    background-color: transparent;
+    border: 1px solid #0077ED;  
+    cursor:pointer; 
+    
+}
+#first #buy-a:hover{
+    background-color: #0077ED;
+    color: white;
+}
+#last #second #head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+}
+#second #head #head1{
+    padding-top: 4vh;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* position: relative; */
+    color: black;
+}
+#second #des{
+    padding-left: 30%;
+    font-size: x-large;
+}
+
+

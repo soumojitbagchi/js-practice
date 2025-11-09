@@ -1,0 +1,75 @@
+*{
+    /* height: 100%;
+    width: 100%; */
+    margin: 1px;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#hero {
+    color: rgb(189, 79, 79);
+    /* background-color: aquamarine; */
+    text-align: end;
+}
+
+.nn {
+    color: royalblue;
+    background-color: red;
+}
+
+.cool {
+    height: 100px;
+    width: 250 px;
+    border: 2px solid black;
+    background: linear-gradient( to left,red 40%,white 20%,blue 30%, yellow); //linear greadient use for multiple colour at once but in linear manner
+    background-attachment: local;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+}
+
+h5 {
+    text-align: center;
+    color: darkgreen;
+    background-color: lightgrey;
+    font-family: 'mycoustomfont';
+}
+
+.cool h1 {
+
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.b{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    background: radial-gradient( white, yellow , orange,red , black ); //radial greadient use for multiple colour at once bu in circular manner
+    background-attachment: local;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    margin: 45px;
+
+}
+.a{
+    height: 250px;
+    width: 250px;
+    background: conic-gradient(white,yellow,orange,yellow,white);//conic greadient use for multiple colour at once bu in conic manner
+    background-attachment: local;
+    background-attachment: local;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 12px;
+}
+//padding= imaginary space inside the div
+//margin= imaginary space outside the div

@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    background-color:white;
+    height: 100%;
+    width: 100%;
+    color: black;
+    
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+    padding: 20px 80px ;
+    box-shadow: black;
+    text-box: initial;
+    font-size: xx-large;
+    margin-bottom: 10%;
+    font-weight: bold;
+
+}
+button{
+    color: white;
+    background-color: rgb(228, 40, 40);
+    position: absolute;
+    top: right;
+    right: 5%;
+    top :12%;
+    width: 190px;
+    height: 50px;
+    font-size: xx-large;
+    border-radius: 15%;
+}
+#main h1{
+    font-size: 300px;
+    padding: 5%;
+    font-weight: 400;
+    font-style: bold;
+}
+#btmleft{
+    position: absolute;
+    width: 12%;
+    bottom: left;
+    left: 5%;
+    bottom: 15%;
+}
+#btmleft h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+#btmleft p{
+    font-size: 20px;
+    font-weight: 200;
+}
+#btmleft h4{
+    font-size: 20px;
+    position: absolute;
+    bottom: left;
+    margin-top: 40px;
+}
+#btmbar{
+    position: absolute;
+    width: 100%;
+    height: 3%;
+    bottom: 0;
+    background-color: white;
+    color: black;
+    padding-left: 5%;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 8px;
+    font-size: 26px;
+}
+#bottom{
+    position: absolute;
+    top: 20%;
+}
+/* #main>img{ //main er moddhe kichun ke target kora //# use hoi sob condition k neglect korar jonno
+     height: 200px;
+    width: 100px;
+} */
+#first{
+    width: 280px;
+    height: 240px;
+    position: absolute;
+    left: 27%;
+    bottom: 35%;
+}
+#second{
+    width: 240px;
+    height: 220px;
+    position: absolute;
+    bottom: 17%;
+    left: 38%;
+}
+#third{
+    width: 390px;
+    height: 350px;
+    position: absolute;
+    right: 35%;
+    top: 36%;
+}
+#mainimg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 50%;
+}
+

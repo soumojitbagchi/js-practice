@@ -1,0 +1,32 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+.big{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: crimson;
+    border: 1px solid white;
+}
+.box:nth-child(2n-3){
+    background-color: black;
+} 
+h1{
+    color: transparent;
+    font-size: 200px;
+    /* background: linear-gradient(red, green, aqua); */
+    /* background-image: url(https://imgs.search.brave.com/Jh4eotbNi7_Pj_O0Fn_1W27K6TQtNKwh-v1KGjYQxNQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvY29sb3Jm/dWwtc3RhdGljLXBh/dHRlcm4tcXkyeTV2/ZWdrcm10MHNjZi5n/aWY.gif);
+    background-clip: text;
+    background-size: cover; */
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+}

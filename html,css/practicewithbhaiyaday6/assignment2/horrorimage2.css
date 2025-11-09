@@ -1,0 +1,17 @@
+*{
+   margin: 0;
+   padding: 0 ;
+   box-sizing: border-box;
+}html,body{
+ height: 100%;
+    width: 100%;
+}
+.a{
+    background-image: url(https://cdn.pixabay.com/photo/2019/10/27/22/15/halloween-4582988_640.jpg);
+    height: 60%;
+    width: 30%;
+    color: transparent;
+    text-shadow: 10px;
+    text-emphasis-color: initial;
+    -webkit-text-fill-color: black;
+}

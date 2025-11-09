@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 300%;
+    width: 100%;
+}
+.name{
+font-size: 3vh;
+font-weight: 100;
+display: flex;
+position: relative;
+gap: 2vh;
+
+}
+.content{
+    display: flex;
+    position: relative;
+    gap: 2vh;
+    justify-content: center;
+}
+.login{
+    position: relative;
+    display: flex;
+    gap: 3vh;
+
+}
+.plate{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: crimson;
+    position: sticky;
+    top: 00%;
+    position: absolute 2px;
+
+}
+.LogIn{
+    width: fit-content;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 10%;
+}
+.upper{
+ position: absolute;
+ width: 100%;
+
+}
+.heading{
+    height: 30%;
+    width: 100%;
+    background-color: aqua;
+    background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+/* .stibaccky{
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    position: sticky;
+    top: 90%;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 25%;
+    padding: 4px;
+    margin-top: 100px;
+    margin: 85%;
+}
+.child1{
+    height: 3000px;
+    width: 100%;
+    background-color: rgb(100, 77, 49);
+}
+.child2{
+    height: 2000px;
+    width: 100%;
+    background-color: rgb(196, 183, 167);
+} */
