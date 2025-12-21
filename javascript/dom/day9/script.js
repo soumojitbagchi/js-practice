@@ -4,7 +4,7 @@ const reels=[
     likeCount: 120,
     isLiked: false,
     commentCount: 14,
-    caption: "Late night debugging sessions hit different.",
+    caption: "Late night debugging sessions be like :- ",
     video: "./reels/v1.mp4",
     userProfile: "https://images.unsplash.com/photo-1684966610091-f6beda2d025a?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     shareCount: 3,
@@ -111,13 +111,13 @@ const reels=[
   }
 ];
 let sum =``
-reels.forEach((del)=>{
+reels.forEach((del,i)=>{
   sum += `<div class="reels">
           <video  autoplay muted loop src="${del.video}" onerror="this.onerror=null; console.error('Video failed to load:', this.src);"></video>
           <div class="bar">
-            <div class="like">
-              <i class="ri-thumb-up-fill" style="color: ${del.isLiked ? '#fff' : 'red'};  font-size: 4vh;"></i>
-              <h3>${del.isLiked ? del.likeCount : "liked"}</h3>
+            <div class="like" , data-index="${i}">
+              <i class="ri-thumb-up-fill" class="like-button"  style="color: ${del.isLiked ? 'red' : '#fff'};  font-size: 4vh;"></i>
+              <h3>${del.isLiked ? "like" : del.likeCount }</h3>
             </div>
             <div class="dislike">
               <i class="ri-thumb-down-fill" style="color: #fff;  font-size: 4vh;"></i>
@@ -140,7 +140,7 @@ reels.forEach((del)=>{
               <div class="lower">
                 <img src="${del.userProfile}" alt="">
                 <h4>${del.username}</h4>
-                <button>${del.isFollowed ? 'Unfollow' : 'Follow'}</button>
+                <button>${del.isFollowed ? 'following' : 'Follow'}</button>
               </div>
               <h1>${del.caption}</h1>
             </div>
@@ -149,3 +149,77 @@ reels.forEach((del)=>{
 })
 let allReels= document.querySelector('.all-reels')
   allReels.innerHTML=sum
+  const video = document.querySelectorAll('video')
+const likes = document.querySelectorAll(".like");
+likes.forEach((like) => { 
+    const icon = like.querySelector('i')
+    const text = like.querySelector('h3')
+    const index= like.dataset.index
+  let col=document.querySelector('.like-button')
+  if(icon.style.color === 'red'){
+    text.innerHTML = 'liked'
+    }
+  like.addEventListener('click', () => {
+    if(icon.style.color === 'red'){
+    icon.style.color = '#fff'
+    text.innerHTML = reels[index].likeCount
+    }
+    else{
+      setTimeout(()=>{
+      icon.style.color = 'red'
+      text.innerHTML='liked'
+      },100)
+      setTimeout(()=>{
+      text.innerHTML= reels[index].likeCount+1
+      },2000)
+    }
+  })
+  video.forEach(video => {
+  video.addEventListener('dblclick',()=>{
+    setTimeout(()=>{
+      icon.style.color = 'red'
+      text.innerHTML='liked'
+    },100)
+    setTimeout(()=>{
+      text.innerHTML= reels[index].likeCount+1
+        },2000)
+    })
+  })
+})
+const dislikes = document.querySelectorAll(".dislike");
+dislikes.forEach((dislike) => { 
+    const icon = dislike.querySelector('i')
+    const text = dislike.querySelector('h3')
+    const index= dislike.dataset.index
+  dislike.addEventListener('click', () => {
+      setTimeout(()=>{
+    icon.style.color = 'red'
+    },1)
+    setTimeout(()=>{
+      icon.style.color='#fff'
+    },2000)
+  })
+})
+const button = document.querySelectorAll('.lower button')
+button.forEach(button =>{
+  if(button.innerText==='following'){
+      button.innerText='follow'
+      button.style.color='#fff'
+      button.style.backgroundColor='#3676E9'
+    }else{
+      button.innerText='following'
+      button.style.color='#fff'
+      button.style.backgroundColor='transparent'
+    }
+  button.addEventListener('click',()=>{
+    if(button.innerText==='following'){
+      button.innerText='follow'
+      button.style.color='#fff'
+      button.style.backgroundColor='#3676E9'
+    }else{
+      button.innerText='following'
+      button.style.color='#fff'
+      button.style.backgroundColor='transparent'
+    }
+  })
+})
