@@ -1,0 +1,14 @@
+npm install react-router-dom
+in main.jsx "import {browserRouter} from 'react-router-dom'"
+wrap <App /> by browserRouter in main.jsx
+in app.jsx 'import { Route,Routes,Link } from "react-router-dom"'
+<Routes />  is the collection of <Routes></Routes> which contains <Route>
+in <Route> mention path (we know where to go) and elements (what to render)
+use Link tag to redirect any specific router
+make navBar component as well before the <Routes> and <Route > in app.jsx
+routes make you to do work and change the adress manually but in Link it kinda upgreaded version of ancor tag which give us the if we click the specific component then we will go to the routing page
+for making a page/route dynamic we can just make the pre route permanent and then we just give id like this - <Route path="/about/:id" element={<RandomAbout />} /> and it can open the element eventhough if you search anything after the about route , but main thing is that for this make a proper components.
+and we use useParam to get the hook which we using in the current element like the parameter we use in the map and all ,<Route path="/about/:id" element={<RandomAbout />} /> first then const param=useParams() to get the details in the constant , <div>{param.id} Course Details</div> now id you use id as your dynamic routing then you can make your own vaiable routes like if i change the id then the whole param.id whould give different output 
+<Link /> we use it because in this we got upgreaded version of the <a> tag , where this tag just update the UI of the given website but the <a> tag use it for reload the website but that's not the case for the <Link> tag .
+YOU must import the components you use later
+Before anything we need to make a route using slash(/) as a components

@@ -1,0 +1,8 @@
+npm i axios
+import axios from 'axios'
+axios.get('url') to get data from the api
+axios always return promise
+promise can we get in 3 form - i> wait ,ii>reject , iii> accept
+we also can use useEffect(function(){
+  details you want to put
+},[])           //here we can put anything on the place of [], if[] change then useState reload the fetching the api

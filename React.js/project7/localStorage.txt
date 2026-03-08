@@ -1,0 +1,7 @@
+localStorage.clear()- use to clear localStorage
+localStorage.clear('key')-- use to clear specific key at localStorage
+localStorage.setItem('key','value')-- use to set specific key and value at localStorage
+localStorage.getItem('key')-- use to get specific key from localStorage
+for make string use JSON.stringify(obj):  Array/object ->string
+const obj = localStorage.getItem('obj')
+to make this string to normal use JSON.parse(obj):  string->Array/object

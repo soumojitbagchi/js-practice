@@ -1,0 +1,1 @@
+useEffect- we use it to render data from backend using API , because react just making the UI but fetching the data from db is the mian theing which we can do using the useEffect, we can control it using the dependencied , useEffect work if the dependecy hits it just fetch the whole data if it doesn't met it just fetch data once.

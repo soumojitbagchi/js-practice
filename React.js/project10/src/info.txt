@@ -1,0 +1,20 @@
+React - we use it because it is single page application (nothing to do with URl change)
+RRD- 
+
+we have so much varity in routers like-
+ -  BrowserRouter
+    - History API 
+    - URL clean 
+    - mordern apps 
+    - good SEO
+    - need server configs
+ - HashRouter 
+    -no SEO
+    -contain hash in rendering 
+    -Older browser 
+ - Memory router
+    - React native
+ - Static router
+
+ In RRD 
+ we use useNavigate() to navigate through the route, to use import useNavigate from RRD, we can use it anywhere but for this example i use  <button onClick={()=>{nav('/courses')}} className="bg-sky-400 p-3 border-2">Explore courses</button> ---- here i use when i click on the button then the it redirect me to the route
